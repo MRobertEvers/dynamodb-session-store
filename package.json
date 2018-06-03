@@ -1,0 +1,15 @@
+{
+  "name": "dynamodb-store",
+  "version": "1.0.0",
+  "description": "",
+  "main": "express-session-dynamodb-store.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.250.1",
+    "express-session": "^1.15.6"
+  }
+}
