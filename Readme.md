@@ -7,6 +7,7 @@ DynamoDB session store. Compatible with express. Used to create and log a sessio
 - `touch` function that updates the session expiration, so the lifetime of the session is always measured from the last user interaction.
 - Does not create a table if it does not exist. This is by design.
 - Creates a dynamoDB record with the input hashKey, an `Expires` field, and a `Session` field.
+- `Session` field contains JSON representation of the session object.
 - Defaults the `Expires` field to 5 minutes from creation or last `touch`. This field indicates when it should be destroyed.
 
 ## Usage
